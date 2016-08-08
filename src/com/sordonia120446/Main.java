@@ -9,6 +9,8 @@ public class Main {
 	/*
     Generates an ArrayList of 30 random Integers between 0 & 30.  Searches through to find the pair that
     when added together equals the sum (in this case, sum = 10).
+    Change the ArrayList size by changing int n.
+    Change the desired sum by changing Integer mySum.
     */
         ArrayList<Integer> myNums = new ArrayList<Integer>();
         int n = 30;

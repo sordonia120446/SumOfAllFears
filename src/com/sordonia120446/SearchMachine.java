@@ -11,8 +11,11 @@ import java.util.function.BooleanSupplier;
 /**
  * Created by SamO on 8/2/16.
  *
- * Takes in an ArrayList of integers in arbitrary order.
- * Create a set of integers
+ * Takes in an ArrayList of integers called mNums, in arbitrary order.
+ * Create a HashSet of Integers, called mKeys, while iterating through mNums.
+ * Each subsequent iteration subtracts the nth element of mNums, num2, from mSum,
+ * then checks HashSet mKeys for that difference, called num2.
+ * If there's a match, print out num1 and num2.  Else, print out a failure message.
  */
 public class SearchMachine {
 
